@@ -4,6 +4,7 @@
     border: 1px solid gainsboro;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .gender-select button:hover {
@@ -13,4 +14,5 @@
 .gender-select .selected {
     background-color: royalblue;
     color: white;
+    font-weight: bold;
 }
