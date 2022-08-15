@@ -16,7 +16,7 @@ function App() {
   const [selectedExercise, setSelectedExercise] = useState(false);
   const [gender, setGender] = useState("male");
 
-  const getExerciseData = async () => {
+  const getExerciseData = () => {
     axios
       .get(EXERCISE_DATA_ENDPOINT)
       .then((response) => {
