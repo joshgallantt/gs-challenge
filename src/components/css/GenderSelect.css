@@ -1,0 +1,16 @@
+.gender-select button {
+    width: 70px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gender-select button:hover {
+    filter: brightness(95%)
+}
+
+.gender-select .selected {
+    background-color: royalblue;
+    color: white;
+}

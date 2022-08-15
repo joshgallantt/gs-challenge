@@ -1,0 +1,45 @@
+
+.exercise-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.exercise-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.exercise-info-title {
+    margin: 30px 0;
+}
+
+.exercise-info-photo {
+    width: 100%;
+}
+
+.exercise-info-instructions-title {
+    width: 100%;
+    text-align: left;
+}
+
+.exercise-info-instructions-description li {
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 850px) {
+    .exercise-info {
+        flex-direction: row;
+    }
+    .exercise-info-photo {
+        width: 500px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .exercise-info-title {
+        margin: 60px 0;
+    }
+}

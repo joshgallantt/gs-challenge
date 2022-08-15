@@ -1,0 +1,16 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: bold;
+}
+
+.header-logo {
+    height: 100%;
+}
